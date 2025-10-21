@@ -21,8 +21,8 @@ public class SoccerBall : MonoBehaviour
     //
     // Also, uncomment and FIX the Debug.Log line.
 
-    //private ?? ??
-    //{
+    private void OnTriggerEnter(Collider other)
+    {
         // finish STEP 1 by uncommenting and fixing the below line!
         //Debug.Log(SoccerBall detected a collision with a trigger collider!);
 
@@ -36,7 +36,12 @@ public class SoccerBall : MonoBehaviour
 
 
         // STEP 2 -------------------------------------------------------------
-    //}
+        if (other.tag == "Goal")
+        {
+            MadeGoal();
+            Debug.Log("SoccerBall detected a collision with a trigger collider!");
+        }
+    }
 
     // STEP 1 -----------------------------------------------------------------
 
@@ -49,6 +54,12 @@ public class SoccerBall : MonoBehaviour
     // Once you've created MadeGoal,
     //      move your Debug.Log() statement into MadeGoal, and
     //      call MadeGoal from inside your if statement in OnTriggerEnter.
+    private void MadeGoal()
+    {
+        Debug.Log("SoccerBall detected a collision with a trigger collider!");
+        _goalVFX.Play;
+    }
+
     
         // STEP 4 -------------------------------------------------------------
         // _goalVFX is a ParticleSystem, a Component for creating VFX.
@@ -56,6 +67,10 @@ public class SoccerBall : MonoBehaviour
         // https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ParticleSystem.Play.html 
         //
         // Call Play on _goalVFX.
+    
+    
+        
+    }
 
         // STEP 4 -------------------------------------------------------------
     
