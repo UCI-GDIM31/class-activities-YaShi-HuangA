@@ -26,3 +26,6 @@ Line 22: This fLoat variable caLled transLation and it is a player's input on Ve
 Line 25: The transforn of the game object and translate(x, y, 2) make it moves forward and backward.
 
 I triggerd the goal.I added a Rigidbody component to the SoccerBall and cat.
+
+### W5
+I'm interested in the question: "When will the victor kill the task", the answer is "never".
