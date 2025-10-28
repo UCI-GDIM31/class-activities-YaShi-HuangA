@@ -11,6 +11,7 @@ bool DidPlayerHitBeat(float keyPressTime, float beatTime, float hitWindow)
 {
     return Math.Abs(keyPressTime - beatTime) <= hitWindow;
 }
+input: float playerhittime, float beattime output: bool true=hit false=miss
 
 
 ## Open-Source Assets
