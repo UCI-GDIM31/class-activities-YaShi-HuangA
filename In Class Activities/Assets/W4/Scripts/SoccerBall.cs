@@ -7,6 +7,7 @@ public class SoccerBall : MonoBehaviour
     [SerializeField] private TMP_Text _pointsText;
     [SerializeField] private TMP_Text _timeText;
     [SerializeField] private ParticleSystem _goalVFX;
+}
 
     // STEP 1 -----------------------------------------------------------------
     // The OnTriggerEnter method is a collision method called by Unity that
@@ -21,8 +22,6 @@ public class SoccerBall : MonoBehaviour
     //
     // Also, uncomment and FIX the Debug.Log line.
 
-    private void OnTriggerEnter(Collider other)
-    {
         // finish STEP 1 by uncommenting and fixing the below line!
         //Debug.Log(SoccerBall detected a collision with a trigger collider!);
 
@@ -36,12 +35,7 @@ public class SoccerBall : MonoBehaviour
 
 
         // STEP 2 -------------------------------------------------------------
-        if (other.tag == "Goal")
-        {
-            MadeGoal();
-            Debug.Log("SoccerBall detected a collision with a trigger collider!");
-        }
-    }
+    
 
     // STEP 1 -----------------------------------------------------------------
 
@@ -54,11 +48,6 @@ public class SoccerBall : MonoBehaviour
     // Once you've created MadeGoal,
     //      move your Debug.Log() statement into MadeGoal, and
     //      call MadeGoal from inside your if statement in OnTriggerEnter.
-    private void MadeGoal()
-    {
-        Debug.Log("SoccerBall detected a collision with a trigger collider!");
-        _goalVFX.Play;
-    }
 
     
         // STEP 4 -------------------------------------------------------------
@@ -70,7 +59,7 @@ public class SoccerBall : MonoBehaviour
     
     
         
-    }
+    
 
         // STEP 4 -------------------------------------------------------------
     
@@ -110,4 +99,4 @@ public class SoccerBall : MonoBehaviour
     //      2. Use the MadeGoal method to reset your
     //              time variable when the player makes a goal. 
     // STEP 6 -----------------------------------------------------------------
-}
+
