@@ -29,3 +29,38 @@ I triggerd the goal.I added a Rigidbody component to the SoccerBall and cat.
 
 ### W5
 I'm interested in the question: "When will the victor kill the task", the answer is "never".
+
+### W6
+Unity engine
+     a.GameObject
+     b.Component System, 
+     c.Game Engine, 
+     d.NavMesh
+     e.Rigidbody
+     f.2D, 3D
+Unity coding
+MonoBehaviour 
+Start(), Update()
+Time.detalTime https://canvas.eee.uci.edu/courses/77004/files/32878903?module_item_id=3465509
+SerializeField
+input.GetKeyDown(KeyCode)
+Transform (x,y,z)
+General C# coding
+If statements
+Methods
+Classes
+Loop (for)
+type, name, value
+Resources
+W2 Lecture Slides: https://canvas.eee.uci.edu/courses/77004/files/32699094?module_item_id=3456099
+Mentions if statements
+W3 Lecture Slides:
+https://canvas.eee.uci.edu/courses/77004/files/32787773?module_item_id=3460795
+Mentions methods and classes
+W6 Prelearning Slides:
+https://canvas.eee.uci.edu/courses/77004/files/32982137?module_item_id=3472814
+Mentions loops
+Math
+Vectors
+Other tools
+GitHub
