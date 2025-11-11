@@ -33,3 +33,7 @@ I'm interested in the question: "When will the victor kill the task", the answer
 ### W6
 https://docs.google.com/document/d/1e2mN0AU-swOXlUWgrUAqoCe8Foq_KrDtrJpCDu_aOx4/edit?tab=t.0
 I was responsible for the Unity engine part.
+
+### W7
+https://docs.google.com/document/d/13nVwuWGt47ZJIsqeRlTBOlD78hPmrMBLpVFdvgc_doA/edit?tab=t.0
+I was responsible for the gameplay and environment.
