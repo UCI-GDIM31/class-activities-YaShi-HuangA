@@ -45,6 +45,16 @@ public class CatW5 : MonoBehaviour
 
 
         Vector3 translation = Vector3.zero;
+        Vector3 movement = Vector3.zero;
+        if (Input.GetKey(KeyCode.W))
+        {
+            movement += Vector3.forward;
+        }
+        else if (Input.GetKey(KeyCode.S))
+        {
+            movement -= Vector3.forward;
+        }
+
         
         
 
