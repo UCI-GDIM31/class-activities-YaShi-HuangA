@@ -37,3 +37,6 @@ I was responsible for the Unity engine part.
 ### W7
 https://docs.google.com/document/d/13nVwuWGt47ZJIsqeRlTBOlD78hPmrMBLpVFdvgc_doA/edit?tab=t.0
 I was responsible for the gameplay and environment.
+
+### W8
+https://docs.google.com/document/d/1n_KTFb7RKX5ALRUG1OJTQXDijw0JehiChVh2Bav-zpk/edit?
